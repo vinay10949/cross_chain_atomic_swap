@@ -1,0 +1,13 @@
+[package]
+name = "schnorr_adaptor_signature"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+secp256k1 = { version = "0.31.1", features = ["rand", "global-context"] }
+sha2 = "0.10.9"
+rand = "0.9"
+hex = "0.4.3"
+thiserror = "1.0"
